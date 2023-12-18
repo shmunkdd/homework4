@@ -1,9 +1,9 @@
 .data
-  input: .dword 3,4,5,6,7,8
-  length: .dword 6
+     input:  .dword 3,4,5,6,7,8
+     length: .dword 6
 
 .text
-.global_start
+.global _start
 _start:
   MOV X0, #0
   LDR X1,=length
